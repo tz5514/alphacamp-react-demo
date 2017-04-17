@@ -1,7 +1,7 @@
 const express = require('express');
 const webpack = require('webpack');
 const webpackCompiler = webpack(require('./webpack.config.js'));
-const port = 3000;
+const port = 3001;
 
 const app = express();
 
